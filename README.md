@@ -37,18 +37,18 @@ be stored in 2’s complement notation with 32 bits). It is cleared if the ADD i
 overflow. The initial value is zero.
 
 
-DEC symbol - Declares a symbolic variable consisting of a single letter (e.g., X). The
+1.DEC symbol - Declares a symbolic variable consisting of a single letter (e.g., X). The
 variable is stored at the memory location of this instruction.
-LDA symbol - Loads byte at data memory address of symbol into the accumulator.
-LDB symbol - Loads byte at data memory address symbol into B.
-LDI value - Loads the integer value into the accumulator register. The value could be negative.
-STR symbol - Stores content of accumulator into data memory at address of symbol.
-XCH Exchanges - the content registers A and B.
-JMP number - Transfers control to instruction at address number in program memory.
-JZS number - Transfers control to instruction at address number if the zero-result bit is set.
-JVS number - Transfers control to instruction at address number if the overflow bit is set.
-ADD Adds - the content of registers A and B. The sum is stored in A. The overflow and zero-result bits are set or cleared as needed.
-HLT Terminates program execution.
+2.LDA symbol - Loads byte at data memory address of symbol into the accumulator.
+3.LDB symbol - Loads byte at data memory address symbol into B.
+4.LDI value - Loads the integer value into the accumulator register. The value could be negative.
+5.STR symbol - Stores content of accumulator into data memory at address of symbol.
+6.XCH Exchanges - the content registers A and B.
+7.JMP number - Transfers control to instruction at address number in program memory.
+8.JZS number - Transfers control to instruction at address number if the zero-result bit is set.
+9.JVS number - Transfers control to instruction at address number if the overflow bit is set.
+10.ADD Adds - the content of registers A and B. The sum is stored in A. The overflow and zero-result bits are set or cleared as needed.
+11.HLT Terminates program execution.
 
 Table 1: Instruction set of SAL.
 
