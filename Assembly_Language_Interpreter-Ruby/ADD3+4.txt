@@ -1,9 +1,0 @@
-DEC x
-DEC y
-LDI 3
-STR x
-LDI 4
-STR y
-LDB y
-LDA x
-ADD
